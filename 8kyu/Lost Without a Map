@@ -11,6 +11,21 @@ For example:
 Solution
 
 def maps(a):
+    a_dub=[]
+    for i in range(len(a)):
+        a_dub.append(a[i]*2)
+    return a_dub
+    
+Refactored:
+
+def maps(a):
+    b=[]
+    for i in a:
+        b.append(i*2)
+    return b
+
+
+Refactored:
+
+def maps(a):
     return [i*2 for i in a]
-    
-    
