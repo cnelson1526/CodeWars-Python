@@ -1,6 +1,7 @@
 
-Task
+#Task
 
+'''
 The marketing team is spending way too much time typing in hashtags.
 Let's help them with our own Hashtag Generator!
 
@@ -15,10 +16,11 @@ Examples
 "    Hello     World   "                  =>  "#HelloWorld"
 ""                                        =>  false
 
+'''
 
 
+#Solution
 
-Solution
 
 def generate_hashtag(s):
     if len(s) == 0:
