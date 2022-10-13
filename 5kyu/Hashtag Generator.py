@@ -21,7 +21,6 @@ Examples
 
 #Solution
 
-
 def generate_hashtag(s):
     if len(s) == 0:
         return False
@@ -32,3 +31,5 @@ def generate_hashtag(s):
         return False
     else:
         return hash
+
+    
